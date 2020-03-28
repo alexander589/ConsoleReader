@@ -8,7 +8,6 @@ public class HomeworkLesson3 {
     public static class ConsoleReader {
 
         public static String readString() throws Exception {
-            BufferedReader reader=new BufferedReader(new InputStreamReader(System.in));
             return reader.readLine();
         }
 
@@ -27,6 +26,7 @@ public class HomeworkLesson3 {
         }
 
         public static void main(String[] args) throws Exception {
+            BufferedReader reader=new BufferedReader(new InputStreamReader(System.in));
             readString();
             readInt();
             readDouble();
