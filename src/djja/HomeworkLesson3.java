@@ -27,6 +27,7 @@ public class HomeworkLesson3 {
         }
 
         public static void main(String[] args) throws Exception {
+            BufferedReader reader=new BufferedReader(new InputStreamReader(System.in));
             readString();
             readInt();
             readDouble();
