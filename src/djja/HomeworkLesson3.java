@@ -5,10 +5,10 @@ import java.io.InputStreamReader;
 
 public class HomeworkLesson3 {
 
+    public static BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
     public static class ConsoleReader {
 
         public static String readString() throws Exception {
-            BufferedReader reader=new BufferedReader(new InputStreamReader(System.in));
             return reader.readLine();
         }
 
